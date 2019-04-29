@@ -1,0 +1,17 @@
+#header{
+    text-transform: uppercase;
+}
+.degrade{
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0.7));
+}
+#banner{
+    position: relative;
+    width:100%; 
+    height:auto; 
+}
+@media only screen and (min-width: 600px){
+    #banner{
+        z-index:-999; 
+        top:-55px
+    }
+}
