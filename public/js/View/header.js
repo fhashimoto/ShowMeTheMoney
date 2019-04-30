@@ -1,4 +1,4 @@
-const texto = `
+const texto_header = `
 	<nav class="navbar navbar-expand-lg navbar-light degrade">
 		<a class="navbar-brand" href="#">
 			<span style="font-family: PT Serif Caption; font-size: 2em" class="text-capitalize pr-2">Evento</span>
@@ -32,13 +32,13 @@ const texto = `
 		</div>
 	</nav>`;
 
-const imagem = `
+const imagem_header = `
 	<img src="./imgs/banner-site-02.png" alt="banner chega disso" id="banner"></img>
 `;
 
-const final = texto+imagem;
+const final_header = texto_header+imagem_header;
 
-$("#header").html(final);
+$("#header").html(final_header);
 
 let handleClick = (e,id) => {
 	e.preventDefault();
