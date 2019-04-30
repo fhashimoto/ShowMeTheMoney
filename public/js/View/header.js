@@ -13,7 +13,7 @@ const texto_header = `
 		<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link" style="color: #234562" href="#">sobre o evento<span class="sr-only">(current)</span></a>
+					<a class="nav-link" style="color: #234562" href="#" onclick="handleClick(event,'#Sobre')">sobre o evento<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" style="color: #234562" href="#" onclick="handleClick(event,'#compraBtn')">compra de ingressos</a>
