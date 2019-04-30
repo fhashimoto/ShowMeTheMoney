@@ -15,7 +15,7 @@ const texto = `
                 <li class="nav-item">
                     <a class="nav-link" style="color: #234562" href="#">sobre o evento<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onclick="handleClick('#compraBtn')">
                     <a class="nav-link" style="color: #234562" href="#">compra de ingressos</a>
                 </li>
                 <li class="nav-item">
@@ -40,5 +40,9 @@ const final = texto+imagem;
 
 $("#header").html(final);
 
+let handleClick = (id) => {
+    $(id).scrollTop();
+    console.log("Implementar o scroll para a parte da página que trata disso");
+}
 
 {/* <i class="fab fa-linkedin-in"> */}
