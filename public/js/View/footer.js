@@ -23,10 +23,10 @@ const texto_footer = `
             <div class="pr-3 pt-2">
               equipe
             </div>
-            <div class="pr-3 pt-2">
+            <div class="pr-3 pt-2" id="contatoF">
               contato
             </div>
-            <div class="pr-3">
+            <div class="pr-3" id="linkF">
               acompanhe:
               <a href="https://www.facebook.com/blog.chegadisso/" target="_blank">
                 <i class="fab fa-facebook-f fa-2x px-3 text-dark"></i>

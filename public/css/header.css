@@ -12,12 +12,25 @@
 .links{
     margin-top: 15px;
 }
+#linkF{
+    padding-top: 10px;
+}
+#contatoF{
+    margin-top: 10px;
+}
+
 @media only screen and (min-width: 600px){
     #banner{
         z-index:-999; 
-        top:-55px
+        top:-86px
     }
     .links{
+        margin-top: 0;
+    }
+    #linkF{
+        padding-top: 0;
+    }
+    #contatoF{
         margin-top: 0;
     }
 }
