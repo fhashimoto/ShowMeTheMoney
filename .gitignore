@@ -64,3 +64,4 @@ node_modules/
 # dotenv environment variables file
 .env
 public/imgs/banner-site-02.png
+*.png
