@@ -26,13 +26,13 @@ const texto_footer = `
             <div class="pr-3 pt-2">
               contato
             </div>
-            <div class="pr-3 pt-2">
+            <div class="pr-3">
               acompanhe:
               <a href="https://www.facebook.com/blog.chegadisso/" target="_blank">
-                <i class="fab fa-facebook-f fa-lg px-2 text-dark"></i>
+                <i class="fab fa-facebook-f fa-2x px-3 text-dark"></i>
               </a>
               <a href="https://www.instagram.com/chega.disso/" target="_blank">
-                <i class="fab fa-instagram fa-lg text-dark"></i>
+                <i class="fab fa-instagram fa-2x text-dark"></i>
               </a>
             </div>
           </div>
