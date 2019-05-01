@@ -29,10 +29,10 @@ const texto_footer = `
             <div class="pr-3 pt-2">
               acompanhe:
               <a href="https://www.facebook.com/blog.chegadisso/" target="_blank">
-                <i class="fab fa-facebook-f px-2 text-dark"></i>
+                <i class="fab fa-facebook-f fa-lg px-2 text-dark"></i>
               </a>
               <a href="https://www.instagram.com/chega.disso/" target="_blank">
-                <i class="fab fa-instagram text-dark"></i>
+                <i class="fab fa-instagram fa-lg text-dark"></i>
               </a>
             </div>
           </div>
