@@ -19,12 +19,12 @@ let x = setInterval( ()=> {
     <div class=" text-white mt-4 rounded py-3" style="background-color:#f3f3f3">
       <div style="text-align:center; color:#00b0f0; font-weight: 700">Gestão e Tecnologia:</div> 
       <div style="text-align:center; color:#00b0f0; font-weight: 700">Transformando sua Empresa</div>
-      <div style="text-align:center; color:black; font-weight: 900" class="pt-2">
-        <div class="row mx-auto">
-          <div class="d-flex flex-column pl-5"><div>${days}</div><div>dia</div></div>
-          <div class="d-flex flex-column pl-3"><div>${hours}</div><div>horas</div></div>
-          <div class="d-flex flex-column pl-3"><div>${minutes}</div><div>min</div></div>
-          <div class="d-flex flex-column pl-3"><div>${seconds}</div><div>seg</div></div>
+      <div style="text-align:center; color:black; font-weight: 900" class="pt-2 d-flex justify-content-center">
+        <div class="row">
+          <div class="d-flex flex-column px-2"><div>${days}</div><div>dia</div></div>
+          <div class="d-flex flex-column px-2"><div>${hours}</div><div>horas</div></div>
+          <div class="d-flex flex-column px-2"><div>${minutes}</div><div>min</div></div>
+          <div class="d-flex flex-column px-2"><div>${seconds}</div><div>seg</div></div>
         </div>
       </div>
     </div>`);
