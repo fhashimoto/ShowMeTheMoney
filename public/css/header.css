@@ -19,10 +19,10 @@
     margin-top: 10px;
 }
 
-@media only screen and (min-width: 600px){
+/* Computador */
+@media only screen and (min-width: 800px){
     #banner{
-        z-index:-999; 
-        top:-86px
+        z-index:-999;
     }
     .links{
         margin-top: 0;
@@ -32,6 +32,13 @@
     }
     #contatoF{
         margin-top: 0;
+    }
+    #Sobre{
+        width: 70%;
+    }
+    #Media{ 
+        width: 30%;
+        padding-left: 10px;
     }
 }
 
